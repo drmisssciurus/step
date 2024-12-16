@@ -54,7 +54,7 @@ async def cancel(update: Update, context: CallbackContext) -> int:
 
 
 if __name__ == '__main__':
-    application = Application.builder().token('7530680667:AAFFJ6SxFOcji0z0Aug4xbNaPtzznJ-QSG8').build()
+    application = Application.builder().token('').build()
 
     selection_handlers = [
         master_conversation_handler,
